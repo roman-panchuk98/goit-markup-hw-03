@@ -237,8 +237,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px; 
+}
+
+.navigation-link {
+    display: inline-block;
+    padding: 24px 0;
 }
 
 .contacts-header {
