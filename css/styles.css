@@ -221,7 +221,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 .header .container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .navigation-header {
@@ -235,7 +235,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 .navigation-header-list {
     display: flex;
-    align-items: flex-start;
     gap: 40px;
 }
 
@@ -246,14 +245,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 .contacts-header {
     display: flex;
-    align-items: flex-start;
-    padding-top: 24px;
-    padding-bottom: 24px; 
+    align-items: center;
 }
 
 .contacts-header-list {
     display: flex;
-    align-items: flex-start;
     gap: 40px;
 }
 
@@ -276,8 +272,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 .hero-section-button {
     display: block;
-    align-items: center;
-    justify-content: center;
     min-width: 169px;
     height: 56px;
     border: none;
